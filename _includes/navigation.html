@@ -9,9 +9,9 @@
 <nav>
     <ul>
         {% for item in site.data.navigation %}
-        <li href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+        <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
             {{ item.name }}
-        </li>
+        </a>
         {% endfor %}
     </ul>
 </nav>
