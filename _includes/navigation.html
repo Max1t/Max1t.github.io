@@ -1,7 +1,17 @@
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
 <nav>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
-        {{ item.name }}
-    </a>
-    {% endfor %}
+    <ul>
+        {% for item in site.data.navigation %}
+        <li href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+            {{ item.name }}
+        </li>
+        {% endfor %}
+    </ul>
 </nav>
