@@ -1,5 +1,5 @@
 <style>
-    ul {
+    nav {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -7,11 +7,9 @@
 </style>
 
 <nav>
-    <ul>
-        {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
-            {{ item.name }}
-        </a>
-        {% endfor %}
-    </ul>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
+        {{ item.name }}
+    </a>
+    {% endfor %}
 </nav>
