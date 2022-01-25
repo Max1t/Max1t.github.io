@@ -1,4 +1,4 @@
 - name: Home
   link: /
-- name: Game
-  link: /game.html
+- name: Chess in console
+  link: /chess.html
