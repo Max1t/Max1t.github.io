@@ -1,6 +1,6 @@
 # C++ Chess
 
-![Image](/assets/Chess.jpeg)
+![Image](/assets/Chess.png)
 
 ## Chess program created in c++ for a school project
 
