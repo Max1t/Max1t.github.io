@@ -1,5 +1,3 @@
-- name: Home
-  link: /
 - name: Chess in console
   link: /chess.html
 - name: Airships

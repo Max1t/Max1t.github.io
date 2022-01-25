@@ -6,6 +6,9 @@ Portfolio
 
 Code snippet test
 
+<details>
+<summary>Code snippet</summary>
+{% highlight ruby %}
 ```csharp
 public class GunDestroyRow : GunBase
 {
@@ -26,8 +29,5 @@ public class GunDestroyRow : GunBase
     }
 }
 ```
-
-[Link Another Game](game.md)
-
-
-
+{% endhighlight %}
+</details>

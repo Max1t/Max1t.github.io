@@ -6,6 +6,12 @@
     }
 </style>
 
+<ul class="no-bullets">
+    <a href="/" {% if page.url=="/" %}style="color: red;" {% endif %}>
+        Home
+    </a>
+</ul>
+
 <nav>
     <ul class="no-bullets">
         {% for item in site.data.navigation %}
@@ -15,5 +21,5 @@
             </a>
         </li>
         {% endfor %}
-        </ul>
+    </ul>
 </nav>

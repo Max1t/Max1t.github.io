@@ -7,4 +7,5 @@
 Chess programmed in c++ with a visual interface in a command prompt. You can choose side for which the ai suggests best moves using a minimax algorigthm. 
 
 Link to full source code __[here!](https://github.com/Max1t/ChessProject)__
+This project was created in finnish as such source files are only in finnish.
 
