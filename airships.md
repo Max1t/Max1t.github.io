@@ -12,10 +12,13 @@
 
 ## Some Code snippets
 
+
 <details>
 <summary>Code snippet</summary>
 
-```csharp
+
+{% highlight csharp %}
+
 public class GunDestroyRow : GunBase
 {
     public override void OnButtonDown()
@@ -34,5 +37,6 @@ public class GunDestroyRow : GunBase
         }
     }
 }
-```
+
+{% endhighlight %}
 </details>
