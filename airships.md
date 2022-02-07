@@ -15,7 +15,6 @@
 <details>
 <summary>Code snippet</summary>
 
-{% highlight ruby %}
 ```csharp
 public class GunDestroyRow : GunBase
 {
@@ -36,5 +35,5 @@ public class GunDestroyRow : GunBase
     }
 }
 ```
-{% endhighlight %}
+
 </details>
