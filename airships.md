@@ -35,5 +35,4 @@ public class GunDestroyRow : GunBase
     }
 }
 ```
-
 </details>
