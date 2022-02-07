@@ -14,6 +14,7 @@
 
 <details>
 <summary>Code snippet</summary>
+<p>
 
 ```csharp
 public class GunDestroyRow : GunBase
@@ -35,5 +36,5 @@ public class GunDestroyRow : GunBase
     }
 }
 ```
-
+</p>
 </details>
