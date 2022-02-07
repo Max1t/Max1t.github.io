@@ -1,3 +1,3 @@
 # Dibs
 
->image<
+![Image](/assets/dibs.png)
