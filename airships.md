@@ -341,6 +341,8 @@ public class GunDestroyRow : GunBase
 <details>
 <summary>The full inventory system for buying and equipping items and guns</summary>
 
+{% highlight csharp %}
+
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
