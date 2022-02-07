@@ -1,5 +1,7 @@
 # Airships
 
+Another Student project. A demo with programmer graphics but functional gameplay.
+
 ![Image](/assets/airship.png)
 
 ## Features
