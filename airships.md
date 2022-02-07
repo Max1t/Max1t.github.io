@@ -88,8 +88,8 @@ public class GunDestroyRow : GunBase
     public bool TestBlockMatches(GameObject[,] GoArray, int index_x, int index_y)
     {
         string targetTag = GoArray[index_x, index_y].tag;
-        // Method does not move any blocks in the game nor in the array just looks at the blocks at the correct indexes for array given as parameter
-        // 
+        // Method does not move any blocks in the game nor in the array just looks at the blocks  
+        // at the correct indexes for array given as parameter
         // Test UP
         if (index_y + 1 < 8)
         {
@@ -307,7 +307,8 @@ public class GunDestroyRow : GunBase
 
         float t = currentHealthLerpTime / healthLerpTime;
         t = Mathf.Sin(t * Mathf.PI * 0.5f);
-        healthFill.fillAmount = Mathf.Lerp(previousHealth / AirshipStats.airshipMaxHealth, AirshipStats.airshipCurrentHealth / AirshipStats.airshipMaxHealth, t);
+        healthFill.fillAmount = Mathf.Lerp(previousHealth / AirshipStats.airshipMaxHealth, AirshipStats.airshipCurrentHealth 
+                                                            / AirshipStats.airshipMaxHealth, t);
     }
 
     private void LerpSteam()                            // Steam Bar animaatio
@@ -325,7 +326,8 @@ public class GunDestroyRow : GunBase
 
         float t = currentSteamLerpTime / steamLerpTime;
         t = Mathf.Sin(t * Mathf.PI * 0.5f);
-        steamFill.fillAmount = Mathf.Lerp(previousSteam / AirshipStats.maxSteam, AirshipStats.currentSteam / AirshipStats.maxSteam, t);
+        steamFill.fillAmount = Mathf.Lerp(previousSteam / AirshipStats.maxSteam, AirshipStats.currentSteam 
+                                                                                / AirshipStats.maxSteam, t);
     }
 
    public void UpdateUI()                                     // Päivittää UI tekstit
