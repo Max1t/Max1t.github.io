@@ -1,6 +1,7 @@
 <style>
     ul.no-bullets {
         list-style-type: none;
+        padding-inline-start: 0px;
     }
 </style>
 
@@ -11,7 +12,7 @@
 </ul>
 
 <nav>
-    <ul class="no-bullets">
+    <ul class="no-bullets" >
         {% for item in site.data.navigation %}
         <li>
             <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
