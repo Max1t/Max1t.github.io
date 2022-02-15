@@ -15,7 +15,7 @@ Another Student project. A demo with programmer graphics but functional gameplay
 ## Some Code snippets
 
 Full source is in a private repository.
-Here are some code snippets from various things i worked on.
+Here are some code snippets from various things I worked on.
 
 <details>
 <summary>A weapon using a baseclass that affects the match3 board, destroying a row of blocks</summary>
