@@ -20,7 +20,7 @@ Example of the multiplayer splitscreen effect.
 ## Some Code snippets
 
 Full source is in a private repository.
-Here are some code snippets from various things i worked on.
+Here are some code snippets from various things I worked on.
 
 
 <details>
