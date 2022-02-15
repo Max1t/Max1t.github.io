@@ -14,7 +14,7 @@ A project to create a feature for the game Dibs by Playstack.
 ## Some Code snippets
 
 Full source is in a private repository.
-Here are some code snippets from various things i worked on.
+Here are some code snippets from various things I worked on.
 
 
 <details>
